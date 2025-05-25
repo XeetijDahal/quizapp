@@ -27,28 +27,28 @@ A React-based Quiz Application that lets users answer multiple-choice questions 
 
 ## Usage
 
-Enter your email and click Start Test to begin.
+- Enter your email and click Start Test to begin.
 
-Answer the questions using radio buttons.
+- Answer the questions using radio buttons.
 
-Navigate questions using Previous, Next, or the numbered buttons.
+- Navigate questions using Previous, Next, or the numbered buttons.
 
-Watch the countdown timer; the quiz auto-submits when time runs out.
+- Watch the countdown timer; the quiz auto-submits when time runs out.
 
-Submit the quiz manually anytime using the Submit Quiz button.
+- Submit the quiz manually anytime using the Submit Quiz button.
 
-View your detailed results with correct answers and your score.
+- View your detailed results with correct answers and your score.
 
-Click Start Again to retake the quiz with a new set of questions.
+- Click Start Again to retake the quiz with a new set of questions.
 
 ---
 
 ## Technologies Used
 
-ReactJS with functional components and hooks
+- ReactJS with functional components and hooks
 
-EmailJS for sending quiz result emails
+- EmailJS for sending quiz result emails
 
-CSS for styling
+- CSS for styling
 
 ---
