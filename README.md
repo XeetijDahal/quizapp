@@ -19,7 +19,9 @@ A React-based Quiz Application that lets users answer multiple-choice questions 
 
 ## Demo
 
-![Quiz App ]|(src/images/quiz.png)|
+| Quiz App |
+|--------------|
+|![Quiz App ]|(src/images/quiz.png)|
 
 ---
 
