@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Quiz App 🧠
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based Quiz Application that lets users answer multiple-choice questions within a time limit. It features navigation between questions, real-time timer, result display, and the ability to restart the quiz. The app also sends quiz results via email using EmailJS.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Multiple-choice questions with radio button selection  
+- Navigate between questions with Previous, Next, and direct question number buttons  
+- Timer with countdown and auto-submit when time expires (default 5 minutes)  
+- Submit quiz manually anytime  
+- Results page showing score, correct and wrong answers, and question-wise feedback  
+- Restart quiz functionality to attempt again with new random questions  
+- Email result summary to user via EmailJS integration  
+- Responsive and simple UI  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+![Quiz App Demo GIF or Screenshot](link-to-image-or-gif-if-any)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Enter your email and click Start Test to begin.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Answer the questions using radio buttons.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Navigate questions using Previous, Next, or the numbered buttons.
 
-### `npm run eject`
+Watch the countdown timer; the quiz auto-submits when time runs out.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Submit the quiz manually anytime using the Submit Quiz button.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+View your detailed results with correct answers and your score.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Click Start Again to retake the quiz with a new set of questions.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ReactJS with functional components and hooks
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+EmailJS for sending quiz result emails
 
-### Code Splitting
+CSS for styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
